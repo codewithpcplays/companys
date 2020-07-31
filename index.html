@@ -65,7 +65,37 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
+        <section id=companys>
+          <div class="container" data-aos="fade-up">
 
+            <div class="section-title">
+              <h2>Contact</h2>
+              <p></p>
+            </div>
+    
+            <div class="row">
+    
+              <div class="col-lg-5 d-flex align-items-stretch">
+                <div class="info">
+    
+    
+                  <div class="email">
+                    <i class="icofont-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>Mricoworld.llc@outlook.com</p>
+                  </div>
+    
+    
+                    </div>
+                  </div>
+                  </div>
+                </form>
+              </div>
+    
+            </div>
+    
+          </div>
+        </section>
           
           
         <h2></h2>
@@ -75,25 +105,7 @@
 
     <section class="inner-page">
       <div class="container">
-        <script src="https://js.stripe.com/v3/"></script>
-        <script>
-          var stripe = Stripe('pk_live_51H1O9zJDco4QVambQXaPM6FBiDb6KPU1cFbQIxH2XZW8148gEzb7UOdK9uAejl09E09QoqNUH4gvxCSn6Wfpn3YH00qSVuj4Od');
-          stripe.redirectToCheckout({
-            lineItems: [{
-              // Replace with the ID of your price
-              price: 'price_1H9dFDJDco4QVambyHRqsQTl',
-              quantity: 1,
-            }],
-            mode: 'subscription',
-            successUrl: 'https://microworldco.com/ossuccess',
-            cancelUrl: 'https://microworldco.com/cancel',
-          }).then(function (result) {
-            // If `redirectToCheckout` fails due to a browser or network
-            // error, display the localized error message to your customer
-            // using `result.error.message`.
-          });
-          
-        </script>
+        
       </div>
     </section>
 
